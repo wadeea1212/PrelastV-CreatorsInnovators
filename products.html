@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المنتجات | Creators &amp; Innovators</title>
+    <meta name="description" content="المواد الفعالة سطحياً، مواد البناء، المطهرات، المثخنات، المذيبات، العطور، مواد الغسيل والمواد المتخصصة.">
+    <link rel="icon" href="Image1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Tajawal:wght@400;500;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="products">
+
+<div id="tsparticles"></div>
+
+<nav class="navbar" aria-label="القائمة الرئيسية">
+    <div class="nav-container">
+
+        <!-- الشعار -->
+        <a href="index.html" class="nav-logo" aria-label="Creators &amp; Innovators - الرئيسية">
+            <img src="Image1.png" alt="شعار CI" class="nav-logo-img">
+            <span class="nav-brand-name">Creators <span class="amp">&amp;</span> Innovators</span>
+        </a>
+
+        <!-- الروابط والقوائم المنسدلة -->
+        <ul class="nav-links" id="nav-links-list">
+            <li><a href="index.html" data-nav="index">الرئيسية</a></li>
+
+            <li class="dropdown">
+                <a href="products.html" class="drop-btn" data-nav="products">المنتجات ▾</a>
+                <ul class="dropdown-menu">
+                    <li class="menu-all"><a href="products.html">كل المنتجات</a></li>
+                    <li><a href="products.html#surfactants">المواد الفعالة سطحياً</a></li><li><a href="products.html#builders">مواد البناء وعوامل التنظيف</a></li><li><a href="products.html#biocides">المطهرات والمواد الحافظة</a></li><li><a href="products.html#thickeners">المثخّنات ومعدّلات اللزوجة</a></li><li><a href="products.html#solvents">المذيبات والإضافات الوظيفية</a></li><li><a href="products.html#fragrances">العطور والألوان والمكونات الحسية</a></li><li><a href="products.html#laundry">مواد الغسيل والعناية بالنسيج</a></li><li><a href="products.html#specialty">المواد الكيميائية المتخصصة</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="services.html" class="drop-btn" data-nav="services">الخدمات ▾</a>
+                <ul class="dropdown-menu">
+                    <li class="menu-all"><a href="services.html">كل الخدمات</a></li>
+                    <li><a href="services.html#sourcing">التوريد والبحث عن المواد الكيميائية</a></li><li><a href="services.html#matching">مطابقة المواد مع التطبيق</a></li><li><a href="services.html#technical-support">الدعم الفني</a></li><li><a href="services.html#formulation">دعم التركيب والتطبيق</a></li><li><a href="services.html#sampling">العينات والتقييم</a></li><li><a href="services.html#qualification">تأهيل الموردين والمواد</a></li><li><a href="services.html#custom">الحلول الكيميائية المخصصة</a></li><li><a href="services.html#supply-chain">حلول سلسلة التوريد</a></li><li><a href="services.html#small-orders">الطلبات الصغيرة</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="index.html#industries" class="drop-btn">القطاعات ▾</a>
+                <ul class="dropdown-menu">
+                    <li class="menu-all"><a href="index.html#industries">كل القطاعات</a></li>
+                    <li><a href="index.html#ind-household">العناية والتنظيف المنزلي</a></li><li><a href="index.html#ind-laundry">الغسيل والعناية بالنسيج</a></li><li><a href="index.html#ind-dishwashing">غسيل الأطباق والعناية بالمطبخ</a></li><li><a href="index.html#ind-personal">العناية الشخصية والنظافة</a></li><li><a href="index.html#ind-disinfection">التطهير والرعاية الصحية</a></li><li><a href="index.html#ind-industrial">التنظيف المؤسسي والصناعي</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html" data-nav="about">عن الشركة</a></li>
+        </ul>
+
+        <!-- الأزرار -->
+        <div class="nav-buttons-group">
+            <button type="button" class="btn-nav ghost-btn" id="login-btn" aria-haspopup="dialog">تسجيل الدخول</button>
+            <a href="contact.html" class="btn-nav outline-btn" data-nav="contact">تواصل معنا</a>
+            <a href="consultation.html" class="btn-nav" data-nav="consultation">طلب استشارة</a>
+        </div>
+
+        <!-- زر الموبايل -->
+        <button type="button" class="menu-toggle" id="mobile-menu" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav-links-list">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+    </div>
+</nav>
+
+<main>
+
+    <section class="page-hero page-top-space">
+        <span class="about-tag" dir="ltr">PRODUCTS | منتجاتنا</span>
+        <h1 class="hero-title">المواد الخام والحلول الكيميائية</h1>
+        <p class="hero-subtitle">نوفّر مجموعة متكاملة من المواد الخام والمكونات الكيميائية المتخصصة لتطوير منتجات التنظيف والعناية المنزلية وتصنيعها، مع حلول تمتد إلى العناية الشخصية والغسيل والتعقيم والعناية بالأسطح.</p>
+    </section>
+
+    <section class="section" style="padding-top:10px">
+        <div class="intro-box">
+            <p>في CI – Creators &amp; Innovators، لا نرى المواد الخام نهايةً لعملية التوريد، بل نقطة البداية لتطوير منتج أفضل.</p>
+            <p>ومن خلال الجمع بين المواد المناسبة والمعرفة الفنية وشبكة التوريد الموثوقة، نساعد عملاءنا على الانتقال من مجرد البحث عن مادة إلى الوصول إلى الحل الأنسب لتطبيقهم.</p>
+        </div>
+
+        <div class="product-detail-list">
+        <article class="prod-block" id="surfactants">
+            <span class="material-num">01</span>
+            <div>
+                <h2>المواد الفعالة سطحياً</h2>
+                <span class="en">Surfactants</span>
+                <p class="lead">الأساس الرئيسي لمعظم تركيبات التنظيف.</p>
+                <p>مجموعة من المواد الفعالة التي تشكّل أساس العديد من تركيبات التنظيف والعناية، وتساهم في التنظيف والترطيب والاستحلاب والتحكم بالرغوة وتحسين الأداء.</p>
+                <ul class="chip-list"><li class="chip">Anionic Surfactants</li><li class="chip">Nonionic Surfactants</li><li class="chip">Amphoteric Surfactants</li><li class="chip">Cationic Surfactants</li><li class="chip">Foam Boosters</li><li class="chip">Wetting Agents</li><li class="chip">Emulsifiers</li></ul>
+                <p class="apps-line"><b>التطبيقات:</b> <span dir="ltr">Laundry • Dishwashing • Surface Cleaning • Personal Care</span></p>
+            </div>
+        </article>
+        <article class="prod-block" id="builders">
+            <span class="material-num">02</span>
+            <div>
+                <h2>مواد البناء وعوامل التنظيف</h2>
+                <span class="en">Builders &amp; Cleaning Agents</span>
+                <p class="lead">مواد ترفع كفاءة التنظيف وتحسّن أداء التركيبة.</p>
+                <p>مكونات تساعد على رفع كفاءة التنظيف، وتحسين التعامل مع عسر المياه، ودعم الأداء العام للتركيبات.</p>
+                <ul class="chip-list"><li class="chip">Builders</li><li class="chip">Water Softeners</li><li class="chip">Chelating Agents</li><li class="chip">Alkaline Builders</li><li class="chip">Acids</li><li class="chip">Alkalinity Sources</li><li class="chip">Solubility &amp; Cleaning Enhancers</li></ul>
+                <p class="apps-line"><b>التطبيقات:</b> <span dir="ltr">Laundry • Dishwashing • Household Cleaning • Industrial Cleaning</span></p>
+            </div>
+        </article>
+        <article class="prod-block" id="biocides">
+            <span class="material-num">03</span>
+            <div>
+                <h2>المطهرات والمواد الحافظة</h2>
+                <span class="en">Biocides, Disinfectants &amp; Preservatives</span>
+                <p class="lead">مواد فعالة للتحكم بالميكروبات وحماية المنتجات من التلف الميكروبي.</p>
+                <p>مواد فعالة وحلول متخصصة للتحكم الميكروبي والتطهير وحماية التركيبات من التلف الميكروبي، وفق التطبيق والمتطلبات التنظيمية المناسبة.</p>
+                <ul class="chip-list"><li class="chip">Disinfectant Actives</li><li class="chip">Antimicrobial Agents</li><li class="chip">Preservatives</li><li class="chip">Sanitizing Agents</li><li class="chip">Antibacterial Ingredients</li></ul>
+                <p class="apps-line"><b>التطبيقات:</b> <span dir="ltr">Disinfectants • Healthcare Cleaning • Household Care • Personal Care</span></p>
+            </div>
+        </article>
+        <article class="prod-block" id="thickeners">
+            <span class="material-num">04</span>
+            <div>
+                <h2>المثخّنات ومعدّلات اللزوجة</h2>
+                <span class="en">Thickeners &amp; Rheology Modifiers</span>
+                <p class="lead">للتحكم في قوام المنتجات ولزوجتها وثباتها.</p>
+                <p>مواد للتحكم في القوام واللزوجة والثبات الفيزيائي للمنتجات السائلة والجل وغيرها من التركيبات.</p>
+                <ul class="chip-list"><li class="chip">Cellulose Derivatives</li><li class="chip">Acrylic Thickeners</li><li class="chip">Associative Thickeners</li><li class="chip">Suspending Agents</li><li class="chip">Rheology Modifiers</li></ul>
+                <p class="apps-line"><b>التطبيقات:</b> <span dir="ltr">Liquid Detergents • Dishwashing • Hand Wash • Bathroom Cleaners • Gels</span></p>
+            </div>
+        </article>
+        <article class="prod-block" id="solvents">
+            <span class="material-num">05</span>
+            <div>
+                <h2>المذيبات والإضافات الوظيفية</h2>
+                <span class="en">Solvents &amp; Functional Additives</span>
+                <p class="lead">مواد تساعد على تحسين الذوبان والتنظيف والثبات والأداء النهائي.</p>
+                <p>مكونات تساعد على تحسين الذوبان والثبات والتوافق والأداء والمظهر النهائي للتركيبة.</p>
+                <ul class="chip-list"><li class="chip">Solvents</li><li class="chip">Co-Solvents</li><li class="chip">Hydrotropes</li><li class="chip">Coupling Agents</li><li class="chip">Stabilizers</li><li class="chip">Defoamers</li><li class="chip">Processing Aids</li></ul>
+                
+            </div>
+        </article>
+        <article class="prod-block" id="fragrances">
+            <span class="material-num">06</span>
+            <div>
+                <h2>العطور والألوان والمكونات الحسية</h2>
+                <span class="en">Fragrances, Colors &amp; Sensory Ingredients</span>
+                <p class="lead">لتحسين تجربة المستخدم والهوية الحسية للمنتج.</p>
+                <p>مكونات تساعد على بناء الهوية الحسية للمنتج وتحسين تجربة المستخدم، بما في ذلك العطور والألوان وحلول التحكم بالرائحة.</p>
+                <ul class="chip-list"><li class="chip">Fragrances</li><li class="chip">Fragrance Encapsulation</li><li class="chip">Water-Soluble Colors</li><li class="chip">Dyes</li><li class="chip">Odor Control Agents</li><li class="chip">Sensory Enhancers</li></ul>
+                <p class="apps-line"><b>التطبيقات:</b> <span dir="ltr">Laundry • Fabric Care • Home Care • Personal Care</span></p>
+            </div>
+        </article>
+        <article class="prod-block" id="laundry">
+            <span class="material-num">07</span>
+            <div>
+                <h2>مواد الغسيل والعناية بالنسيج</h2>
+                <span class="en">Laundry &amp; Fabric Care Ingredients</span>
+                <p class="lead">عائلة متخصصة بمنتجات الغسيل والعناية بالأقمشة.</p>
+                <p>حلول متخصصة لمنتجات الغسيل والعناية بالأقمشة، تشمل مواد التنعيم، ومنع إعادة الترسيب، والتفتيح البصري، والتحكم في خصائص المنتج.</p>
+                <ul class="chip-list"><li class="chip">Fabric Softening Agents</li><li class="chip">Anti-Redeposition Agents</li><li class="chip">Optical Brighteners</li><li class="chip">Enzymes</li><li class="chip">Anti-Static Agents</li><li class="chip">Soil Release Polymers</li><li class="chip">Fragrance Systems</li></ul>
+                
+            </div>
+        </article>
+        <article class="prod-block" id="specialty">
+            <span class="material-num">08</span>
+            <div>
+                <h2>المواد الكيميائية المتخصصة</h2>
+                <span class="en">Specialty Chemicals</span>
+                <p class="lead">مواد يتم اختيارها حسب طبيعة المنتج والمشكلة التقنية المطلوب حلها.</p>
+                <p>مجموعة من المواد والمكونات المتخصصة التي يتم اختيارها وفق متطلبات التطبيق والمشكلة الفنية التي يسعى العميل إلى حلها.</p>
+                <ul class="chip-list"><li class="chip">Performance Enhancers</li><li class="chip">Surface Modifiers</li><li class="chip">Stability Agents</li><li class="chip">Compatibility Agents</li><li class="chip">Specialty Additives</li><li class="chip">Formulation Aids</li></ul>
+                
+            </div>
+        </article>
+        </div>
+
+        <div class="difference-box">
+            <h2>أكثر من مجرد مورد. شريكك في الكيمياء.</h2>
+            <span class="en-sub" dir="ltr">More Than a Supplier. A Partner in Chemistry.</span>
+            <p>لم تجد المادة التي تبحث عنها؟ أخبرنا عن تطبيقك، وسنساعدك في الوصول إلى المادة أو مجموعة المواد الأنسب.</p>
+            <div class="hero-buttons">
+                <a href="contact.html?type=product" class="btn-primary">استفسر عن مادة</a>
+                <a href="services.html" class="btn-secondary">استكشف خدماتنا ←</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <img src="Image1.png" alt="شعار CI" class="footer-logo">
+            <p class="footer-slogan">نبتكر المادة لتصنع أنت الفارق</p>
+            <p class="footer-slogan-en" dir="ltr">We Innovate the Chemistry. You Create the Difference.</p>
+        </div>
+        <div>
+            <h4>روابط سريعة</h4>
+            <ul>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="services.html">الخدمات</a></li>
+                <li><a href="services.html#small-orders">الطلبات الصغيرة</a></li>
+                <li><a href="index.html#industries">القطاعات</a></li>
+                <li><a href="about.html">عن الشركة</a></li>
+                <li><a href="consultation.html">طلب استشارة</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>السياسات</h4>
+            <ul><li><a href="terms.html">الشروط والأحكام</a></li><li><a href="policies.html#privacy">سياسة الخصوصية</a></li><li><a href="policies.html#quality">سياسة الجودة</a></li><li><a href="policies.html#chemical-safety">سلامة المواد الكيميائية</a></li><li><a href="policies.html#sourcing">التوريد المسؤول</a></li><li><a href="policies.html#environment">البيئة والاستدامة</a></li><li><a href="policies.html#health-safety">الصحة والسلامة</a></li><li><a href="policies.html#ethics">أخلاقيات ونزاهة الأعمال</a></li></ul>
+        </div>
+        <div>
+            <h4>تواصل معنا</h4>
+            <ul>
+                <li>عمّان، الأردن</li>
+                <!-- TODO: استبدال البيانات التالية بالبيانات الرسمية للشركة -->
+                <li dir="ltr">[Company Email]</li>
+                <li dir="ltr">[Company Phone]</li>
+                <li><a href="contact.html">أرسل استفسارك ←</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="footer-copy">© <span id="year">2026</span> Creators &amp; Innovators — شركة «المبدعون والمبتكرون». جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

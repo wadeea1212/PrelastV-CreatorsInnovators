@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا | Creators &amp; Innovators</title>
+    <meta name="description" content="تواصل مع CI لطلب المواد الخام والعينات والكميات الصغيرة وعروض الأسعار والدعم الفني.">
+    <link rel="icon" href="Image1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Tajawal:wght@400;500;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+
+<div id="tsparticles"></div>
+
+<nav class="navbar" aria-label="القائمة الرئيسية">
+    <div class="nav-container">
+
+        <!-- الشعار -->
+        <a href="index.html" class="nav-logo" aria-label="Creators &amp; Innovators - الرئيسية">
+            <img src="Image1.png" alt="شعار CI" class="nav-logo-img">
+            <span class="nav-brand-name">Creators <span class="amp">&amp;</span> Innovators</span>
+        </a>
+
+        <!-- الروابط والقوائم المنسدلة -->
+        <ul class="nav-links" id="nav-links-list">
+            <li><a href="index.html" data-nav="index">الرئيسية</a></li>
+
+            <li class="dropdown">
+                <a href="products.html" class="drop-btn" data-nav="products">المنتجات ▾</a>
+                <ul class="dropdown-menu">
+                    <li class="menu-all"><a href="products.html">كل المنتجات</a></li>
+                    <li><a href="products.html#surfactants">المواد الفعالة سطحياً</a></li><li><a href="products.html#builders">مواد البناء وعوامل التنظيف</a></li><li><a href="products.html#biocides">المطهرات والمواد الحافظة</a></li><li><a href="products.html#thickeners">المثخّنات ومعدّلات اللزوجة</a></li><li><a href="products.html#solvents">المذيبات والإضافات الوظيفية</a></li><li><a href="products.html#fragrances">العطور والألوان والمكونات الحسية</a></li><li><a href="products.html#laundry">مواد الغسيل والعناية بالنسيج</a></li><li><a href="products.html#specialty">المواد الكيميائية المتخصصة</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="services.html" class="drop-btn" data-nav="services">الخدمات ▾</a>
+                <ul class="dropdown-menu">
+                    <li class="menu-all"><a href="services.html">كل الخدمات</a></li>
+                    <li><a href="services.html#sourcing">التوريد والبحث عن المواد الكيميائية</a></li><li><a href="services.html#matching">مطابقة المواد مع التطبيق</a></li><li><a href="services.html#technical-support">الدعم الفني</a></li><li><a href="services.html#formulation">دعم التركيب والتطبيق</a></li><li><a href="services.html#sampling">العينات والتقييم</a></li><li><a href="services.html#qualification">تأهيل الموردين والمواد</a></li><li><a href="services.html#custom">الحلول الكيميائية المخصصة</a></li><li><a href="services.html#supply-chain">حلول سلسلة التوريد</a></li><li><a href="services.html#small-orders">الطلبات الصغيرة</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="index.html#industries" class="drop-btn">القطاعات ▾</a>
+                <ul class="dropdown-menu">
+                    <li class="menu-all"><a href="index.html#industries">كل القطاعات</a></li>
+                    <li><a href="index.html#ind-household">العناية والتنظيف المنزلي</a></li><li><a href="index.html#ind-laundry">الغسيل والعناية بالنسيج</a></li><li><a href="index.html#ind-dishwashing">غسيل الأطباق والعناية بالمطبخ</a></li><li><a href="index.html#ind-personal">العناية الشخصية والنظافة</a></li><li><a href="index.html#ind-disinfection">التطهير والرعاية الصحية</a></li><li><a href="index.html#ind-industrial">التنظيف المؤسسي والصناعي</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html" data-nav="about">عن الشركة</a></li>
+        </ul>
+
+        <!-- الأزرار -->
+        <div class="nav-buttons-group">
+            <button type="button" class="btn-nav ghost-btn" id="login-btn" aria-haspopup="dialog">تسجيل الدخول</button>
+            <a href="contact.html" class="btn-nav outline-btn" data-nav="contact">تواصل معنا</a>
+            <a href="consultation.html" class="btn-nav" data-nav="consultation">طلب استشارة</a>
+        </div>
+
+        <!-- زر الموبايل -->
+        <button type="button" class="menu-toggle" id="mobile-menu" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav-links-list">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+    </div>
+</nav>
+
+<main>
+
+    <section class="contact-section page-top-space">
+        <div class="section-header">
+            <span class="section-eyebrow" dir="ltr">Contact Us</span>
+            <h1 class="section-title">تواصل معنا لنحوّل احتياجك إلى حل كيميائي عملي<span>.</span></h1>
+            <p class="section-subtitle" dir="ltr">Let’s Create the Right Chemistry.</p>
+        </div>
+
+        <div class="contact-intro">
+            <p>في CI – Creators &amp; Innovators، نؤمن أن كل منتج ناجح يبدأ بفهم دقيق للاحتياج. سواء كنت تبحث عن مادة خام محددة، أو تعمل على تطوير تركيبة جديدة، أو تحتاج إلى بديل لمادة قائمة، أو ترغب في استكشاف حل أكثر كفاءة — فريقنا مستعد لفهم متطلباتك ومساعدتك في الوصول إلى الخيار المناسب.</p>
+            <p>نرحّب بالاستفسارات وطلبات العينات والعروض التجارية والدعم الفني وتطوير حلول المواد الخام لقطاعات التنظيف والعناية والقطاعات المرتبطة بها.</p>
+        </div>
+
+        <h2 class="section-title" style="text-align:center;font-size:24px">كيف يمكننا مساعدتك؟</h2>
+        <div class="help-grid" style="margin-top:20px">
+            <div class="help-item"><span class="en" dir="ltr">Product &amp; Raw Material Inquiries</span><span class="ar">استفسارات المواد الخام والمنتجات</span></div>
+            <div class="help-item"><span class="en" dir="ltr">Technical &amp; Formulation Support</span><span class="ar">الدعم الفني ودعم التركيبات</span></div>
+            <div class="help-item"><span class="en" dir="ltr">Sample Requests</span><span class="ar">طلب العينات والكميات التجريبية</span></div>
+            <div class="help-item"><span class="en" dir="ltr">Small Orders</span><span class="ar">طلبات الكميات الصغيرة</span></div>
+            <div class="help-item"><span class="en" dir="ltr">Quotations &amp; Commercial Inquiries</span><span class="ar">طلبات الأسعار والاستفسارات التجارية</span></div>
+            <div class="help-item"><span class="en" dir="ltr">Custom Chemical Solutions</span><span class="ar">حلول كيميائية مخصصة</span></div>
+        </div>
+
+        <div class="contact-layout">
+            <form class="contact-form js-form" id="contact-form" data-success="تم إرسال استفسارك بنجاح! سيتواصل معك فريقنا قريبًا." novalidate>
+                <h3>أرسل لنا طلبك <span class="en" dir="ltr" style="font-size:14px;color:var(--on-dark-muted)">Send Us Your Request</span></h3>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="c-name">الاسم <span class="req">*</span></label>
+                        <input type="text" id="c-name" name="name" data-prefill="name" placeholder="الاسم الكامل" autocomplete="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-company">الشركة</label>
+                        <input type="text" id="c-company" name="company" placeholder="اسم الشركة أو المصنع" autocomplete="organization">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="c-email">البريد الإلكتروني <span class="req">*</span></label>
+                        <input type="email" id="c-email" name="email" placeholder="name@company.com" autocomplete="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-phone">رقم الهاتف / واتساب</label>
+                        <input type="tel" id="c-phone" name="phone" placeholder="+962 7X XXX XXXX" autocomplete="tel">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="inquiry-type">نوع الطلب</label>
+                        <select id="inquiry-type" name="type">
+                            <option value="product">استفسار عن مادة خام أو منتج</option>
+                            <option value="technical">دعم فني أو دعم تركيبات</option>
+                            <option value="sample">طلب عينة</option>
+                            <option value="small-order">طلب كمية صغيرة</option>
+                            <option value="quotation">طلب عرض سعر / استفسار تجاري</option>
+                            <option value="custom">حل كيميائي مخصص</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-material">المادة أو المنتج المطلوب</label>
+                        <input type="text" id="c-material" name="material" placeholder="مثال: SLES 70%، كمية 500 كغ">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="c-message">أخبرنا عن احتياجك <span class="req">*</span></label>
+                    <textarea id="c-message" name="message" rows="5" placeholder="التطبيق، المواصفات المطلوبة، الكمية، مواعيد التوريد المستهدفة..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="c-file">إرفاق ملف</label>
+                    <div class="file-drop">
+                        <input type="file" id="c-file" name="attachment" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg">
+                        اضغط لاختيار ملف أو اسحبه إلى هنا
+                        <span class="file-name"></span>
+                    </div>
+                    <p class="form-hint">يمكنك إرفاق المواصفات الفنية أو TDS أو SDS أو أي مستند متعلق بالطلب (حتى 10 ميغابايت).</p>
+                </div>
+
+                <button type="submit" class="btn-primary submit-btn">أرسل استفسارك ←</button>
+                <div class="form-success" role="status" aria-live="polite"></div>
+            </form>
+
+            <aside class="contact-aside">
+                <h3>بيانات التواصل</h3>
+                <ul>
+                    <li><b>العنوان</b>عمّان، الأردن</li>
+                    <!-- TODO: استبدال البيانات التالية بالبيانات الرسمية للشركة -->
+                    <li><b>البريد الإلكتروني</b><span dir="ltr">[Company Email]</span></li>
+                    <li><b>الهاتف / واتساب</b><span dir="ltr">[Company Phone]</span></li>
+                </ul>
+                <div class="quote">
+                    <span class="en" dir="ltr">Have a requirement? Let’s talk chemistry.</span>
+                    <span class="ar">لديك احتياج؟ دعنا نبدأ من الكيمياء.</span>
+                </div>
+                <div class="quote">
+                    <span class="en">CI – Creators &amp; Innovators</span>
+                    <span class="ar">نبتكر المادة لتصنع أنت الفارق.</span>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <img src="Image1.png" alt="شعار CI" class="footer-logo">
+            <p class="footer-slogan">نبتكر المادة لتصنع أنت الفارق</p>
+            <p class="footer-slogan-en" dir="ltr">We Innovate the Chemistry. You Create the Difference.</p>
+        </div>
+        <div>
+            <h4>روابط سريعة</h4>
+            <ul>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="services.html">الخدمات</a></li>
+                <li><a href="services.html#small-orders">الطلبات الصغيرة</a></li>
+                <li><a href="index.html#industries">القطاعات</a></li>
+                <li><a href="about.html">عن الشركة</a></li>
+                <li><a href="consultation.html">طلب استشارة</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>السياسات</h4>
+            <ul><li><a href="terms.html">الشروط والأحكام</a></li><li><a href="policies.html#privacy">سياسة الخصوصية</a></li><li><a href="policies.html#quality">سياسة الجودة</a></li><li><a href="policies.html#chemical-safety">سلامة المواد الكيميائية</a></li><li><a href="policies.html#sourcing">التوريد المسؤول</a></li><li><a href="policies.html#environment">البيئة والاستدامة</a></li><li><a href="policies.html#health-safety">الصحة والسلامة</a></li><li><a href="policies.html#ethics">أخلاقيات ونزاهة الأعمال</a></li></ul>
+        </div>
+        <div>
+            <h4>تواصل معنا</h4>
+            <ul>
+                <li>عمّان، الأردن</li>
+                <!-- TODO: استبدال البيانات التالية بالبيانات الرسمية للشركة -->
+                <li dir="ltr">[Company Email]</li>
+                <li dir="ltr">[Company Phone]</li>
+                <li><a href="contact.html">أرسل استفسارك ←</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="footer-copy">© <span id="year">2026</span> Creators &amp; Innovators — شركة «المبدعون والمبتكرون». جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
